@@ -4,7 +4,7 @@
 <launch>
 
   <!-- declare arguments with default values -->
-  <arg name="calibration" default="$(find catvehicle_velodyne)/params/64db.yaml"/>
+  <arg name="calibration" default="$(find catvehiclevelodyne)/params/64db_utexas.yaml"/>
   <arg name="device_ip" default="" />
   <arg name="frame_id" default="velodyne" />
   <arg name="manager" default="$(arg frame_id)_nodelet_manager" />
